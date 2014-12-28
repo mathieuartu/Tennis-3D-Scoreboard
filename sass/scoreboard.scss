@@ -1,0 +1,182 @@
+@import "compass/css3";
+
+.rlx-scoreboard-wrapper{
+	position:relative;
+	@include perspective(650px);
+	@include perspective-origin(380px 110px);
+}
+
+.rlx-scoreboard-panel, .rlx-scoreboard-mask{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:100;
+	overflow:hidden;
+	width:766px;
+	height:221px;
+}
+
+.rlx-scoreboard-mask{
+	z-index:90;
+	background:url("images/scoreboard-light.png") no-repeat 0 0;
+	-webkit-mask-image:url("images/scoreboard-mask.png");
+}
+
+
+.rlx-scoreboard{
+	position:relative;
+	overflow:hidden;
+	width:766px;
+	height:221px;
+	background:url("images/scoreboard.png") no-repeat 0 0;
+	@include box-shadow(0 15px 15px rgba(0,0,0,0.3));
+	
+
+	.rlx-scoreboard-center{
+		position:absolute;
+		top:81px;
+		left:218px;
+		width:270px;
+		text-align:center;
+	}
+
+	.rlx-previous-sets{
+		position:absolute;
+		z-index:10;
+		top:80px;
+		left:11px;
+		width:200px;
+
+		&.rlx-previous-sets-p2{
+			top:148px;
+		}
+
+		div{
+			float:left;
+		}
+	}
+
+	.rlx-scoreboard-letters span{
+		@include inline-block;
+		width:11px;
+		height:24px;
+		background:url("images/scoreboard-spritesheet-letters.png") no-repeat 0 0;
+
+		&.a{ background-position:0 0; }
+		&.b{ background-position:-11px 0; }
+		&.c{ background-position:-22px 0; }
+		&.d{ background-position:-33px 0; }
+		&.e{ background-position:-44px 0; }
+		&.f{ background-position:-55px 0; }
+		&.g{ background-position:-66px 0; }
+		&.h{ background-position:-77px 0; }
+		&.i{ background-position:-88px 0; }
+		&.j{ background-position:-99px 0; }
+		&.k{ background-position:-110px 0; }
+		&.l{ background-position:-121px 0; }
+		&.m{ background-position:-132px 0; }
+		&.n{ background-position:-143px 0; }
+		&.o{ background-position:-154px 0; }
+		&.p{ background-position:-165px 0; }
+		&.q{ background-position:-176px 0; }
+		&.r{ background-position:-187px 0; }
+		&.s{ background-position:-198px 0; }
+		&.t{ background-position:-209px 0; }
+		&.u{ background-position:-220px 0; }
+		&.v{ background-position:-231px 0; }
+		&.w{ background-position:-242px 0; }
+		&.x{ background-position:-253px 0; }
+		&.y{ background-position:-264px 0; }
+		&.z{ background-position:-275px 0; }
+		&.space{ background-position:-363px 0; }
+		&.stop{ background-position:-286px 0;}
+		&.empty-line{background:none;}
+
+	}
+
+	.rlx-scoreboard-numbers span{
+		@include inline-block;
+		width:47px;
+		height:60px;
+		background:url("images/scoreboard-spritesheet-numbers.png") no-repeat 0 0;
+
+		&.number-0{ background-position:-423px 0; }
+		&.number-1{ background-position:0 0; }
+		&.number-2{ background-position:-47px 0; }
+		&.number-3{ background-position:-94px 0; }
+		&.number-4{ background-position:-141px 0; }
+		&.number-5{ background-position:-188px 0; }
+		&.number-6{ background-position:-235px 0; }
+		&.number-7{ background-position:-282px 0; }
+		&.number-8{ background-position:-329px 0; }
+		&.number-9{ background-position:-376px 0; }
+	}
+
+	.rlx-scoreboard-service{
+		position:absolute;
+		z-index:10;
+		top:84px;
+		right:273px;
+
+		.rlx-active{
+			width:7px;
+			height:7px;
+			background:#dbc85c;
+			position:absolute;
+			z-index:10;
+
+			&.rlx-scoreboard-service-line-2{ top:26px; }
+			&.rlx-scoreboard-service-line-3{ top:51px; }
+			&.rlx-scoreboard-service-line-4{ top:75px; }
+			&.rlx-scoreboard-service-line-5{ top:99px; }
+		}
+	}
+
+	.rlx-scoreboard-points{
+		position:absolute;
+		z-index:10;
+		right:10px;
+		top:81px;
+
+		.rlx-points-p1{
+			margin-bottom:8px;
+		}
+	}
+
+	.rlx-current-sets{
+		position:absolute;
+		z-index:10;
+		right:196px;
+		top:81px;
+
+		.rlx-current-set-p1{
+			margin-bottom:8px;
+		}
+	}
+
+	.rlx-scoreboard-games{
+		position:absolute;
+		z-index:10;
+		right:102px;
+		top:81px;
+		text-align:right;
+
+		.rlx-games-p1{
+			margin-bottom:8px;
+		}
+	}
+
+	.rlx-scoreboard-points span{
+		@include inline-block;
+		width:94px;
+		height:60px;
+		background:url("images/scoreboard-spritesheet-numbers.png") no-repeat 0 0;
+
+		&.score-0{ background-position:0 -141px; }
+		&.score-15{ background-position:-94px -141px; }
+		&.score-30{ background-position:-188px -141px; }
+		&.score-40{ background-position:-282px -141px; }
+		&.score-ad{ background-position:-376px -141px; }
+	}
+
+}

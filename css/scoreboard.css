@@ -1,0 +1,345 @@
+/* line 3, ../sass/scoreboard.scss */
+.rlx-scoreboard-wrapper {
+  position: relative;
+  -webkit-perspective: 650px;
+  -moz-perspective: 650px;
+  -ms-perspective: 650px;
+  -o-perspective: 650px;
+  perspective: 650px;
+  -webkit-perspective-origin: 380px 110px;
+  -moz-perspective-origin: 380px 110px;
+  -ms-perspective-origin: 380px 110px;
+  -o-perspective-origin: 380px 110px;
+  perspective-origin: 380px 110px;
+}
+
+/* line 9, ../sass/scoreboard.scss */
+.rlx-scoreboard-panel, .rlx-scoreboard-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  overflow: hidden;
+  width: 766px;
+  height: 221px;
+}
+
+/* line 19, ../sass/scoreboard.scss */
+.rlx-scoreboard-mask {
+  z-index: 90;
+  background: url("images/scoreboard-light.png") no-repeat 0 0;
+  -webkit-mask-image: url("images/scoreboard-mask.png");
+}
+
+/* line 26, ../sass/scoreboard.scss */
+.rlx-scoreboard {
+  position: relative;
+  overflow: hidden;
+  width: 766px;
+  height: 221px;
+  background: url("images/scoreboard.png") no-repeat 0 0;
+  -webkit-box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+}
+/* line 35, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-center {
+  position: absolute;
+  top: 81px;
+  left: 218px;
+  width: 270px;
+  text-align: center;
+}
+/* line 43, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-previous-sets {
+  position: absolute;
+  z-index: 10;
+  top: 80px;
+  left: 11px;
+  width: 200px;
+}
+/* line 50, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-previous-sets.rlx-previous-sets-p2 {
+  top: 148px;
+}
+/* line 54, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-previous-sets div {
+  float: left;
+}
+/* line 59, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-letters span {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  width: 11px;
+  height: 24px;
+  background: url("images/scoreboard-spritesheet-letters.png") no-repeat 0 0;
+}
+/* line 65, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-letters span.a {
+  background-position: 0 0;
+}
+/* line 66, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-letters span.b {
+  background-position: -11px 0;
+}
+/* line 67, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-letters span.c {
+  background-position: -22px 0;
+}
+/* line 68, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-letters span.d {
+  background-position: -33px 0;
+}
+/* line 69, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-letters span.e {
+  background-position: -44px 0;
+}
+/* line 70, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-letters span.f {
+  background-position: -55px 0;
+}
+/* line 71, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-letters span.g {
+  background-position: -66px 0;
+}
+/* line 72, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-letters span.h {
+  background-position: -77px 0;
+}
+/* line 73, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-letters span.i {
+  background-position: -88px 0;
+}
+/* line 74, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-letters span.j {
+  background-position: -99px 0;
+}
+/* line 75, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-letters span.k {
+  background-position: -110px 0;
+}
+/* line 76, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-letters span.l {
+  background-position: -121px 0;
+}
+/* line 77, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-letters span.m {
+  background-position: -132px 0;
+}
+/* line 78, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-letters span.n {
+  background-position: -143px 0;
+}
+/* line 79, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-letters span.o {
+  background-position: -154px 0;
+}
+/* line 80, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-letters span.p {
+  background-position: -165px 0;
+}
+/* line 81, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-letters span.q {
+  background-position: -176px 0;
+}
+/* line 82, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-letters span.r {
+  background-position: -187px 0;
+}
+/* line 83, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-letters span.s {
+  background-position: -198px 0;
+}
+/* line 84, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-letters span.t {
+  background-position: -209px 0;
+}
+/* line 85, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-letters span.u {
+  background-position: -220px 0;
+}
+/* line 86, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-letters span.v {
+  background-position: -231px 0;
+}
+/* line 87, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-letters span.w {
+  background-position: -242px 0;
+}
+/* line 88, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-letters span.x {
+  background-position: -253px 0;
+}
+/* line 89, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-letters span.y {
+  background-position: -264px 0;
+}
+/* line 90, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-letters span.z {
+  background-position: -275px 0;
+}
+/* line 91, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-letters span.space {
+  background-position: -363px 0;
+}
+/* line 92, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-letters span.stop {
+  background-position: -286px 0;
+}
+/* line 93, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-letters span.empty-line {
+  background: none;
+}
+/* line 97, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-numbers span {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  width: 47px;
+  height: 60px;
+  background: url("images/scoreboard-spritesheet-numbers.png") no-repeat 0 0;
+}
+/* line 103, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-numbers span.number-0 {
+  background-position: -423px 0;
+}
+/* line 104, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-numbers span.number-1 {
+  background-position: 0 0;
+}
+/* line 105, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-numbers span.number-2 {
+  background-position: -47px 0;
+}
+/* line 106, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-numbers span.number-3 {
+  background-position: -94px 0;
+}
+/* line 107, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-numbers span.number-4 {
+  background-position: -141px 0;
+}
+/* line 108, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-numbers span.number-5 {
+  background-position: -188px 0;
+}
+/* line 109, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-numbers span.number-6 {
+  background-position: -235px 0;
+}
+/* line 110, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-numbers span.number-7 {
+  background-position: -282px 0;
+}
+/* line 111, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-numbers span.number-8 {
+  background-position: -329px 0;
+}
+/* line 112, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-numbers span.number-9 {
+  background-position: -376px 0;
+}
+/* line 115, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-service {
+  position: absolute;
+  z-index: 10;
+  top: 84px;
+  right: 273px;
+}
+/* line 121, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-service .rlx-active {
+  width: 7px;
+  height: 7px;
+  background: #dbc85c;
+  position: absolute;
+  z-index: 10;
+}
+/* line 128, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-service .rlx-active.rlx-scoreboard-service-line-2 {
+  top: 26px;
+}
+/* line 129, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-service .rlx-active.rlx-scoreboard-service-line-3 {
+  top: 51px;
+}
+/* line 130, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-service .rlx-active.rlx-scoreboard-service-line-4 {
+  top: 75px;
+}
+/* line 131, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-service .rlx-active.rlx-scoreboard-service-line-5 {
+  top: 99px;
+}
+/* line 135, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-points {
+  position: absolute;
+  z-index: 10;
+  right: 10px;
+  top: 81px;
+}
+/* line 141, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-points .rlx-points-p1 {
+  margin-bottom: 8px;
+}
+/* line 146, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-current-sets {
+  position: absolute;
+  z-index: 10;
+  right: 196px;
+  top: 81px;
+}
+/* line 152, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-current-sets .rlx-current-set-p1 {
+  margin-bottom: 8px;
+}
+/* line 157, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-games {
+  position: absolute;
+  z-index: 10;
+  right: 102px;
+  top: 81px;
+  text-align: right;
+}
+/* line 164, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-games .rlx-games-p1 {
+  margin-bottom: 8px;
+}
+/* line 169, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-points span {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  width: 94px;
+  height: 60px;
+  background: url("images/scoreboard-spritesheet-numbers.png") no-repeat 0 0;
+}
+/* line 175, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-points span.score-0 {
+  background-position: 0 -141px;
+}
+/* line 176, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-points span.score-15 {
+  background-position: -94px -141px;
+}
+/* line 177, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-points span.score-30 {
+  background-position: -188px -141px;
+}
+/* line 178, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-points span.score-40 {
+  background-position: -282px -141px;
+}
+/* line 179, ../sass/scoreboard.scss */
+.rlx-scoreboard .rlx-scoreboard-points span.score-ad {
+  background-position: -376px -141px;
+}
